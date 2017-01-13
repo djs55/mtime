@@ -31,6 +31,10 @@ let start_ms = now_ms ()
 
 let elapsed () = now_ms () -. start_ms
 
+(* Absolute time *)
+
+let absolute () = now_ms ()
+
 (* Counters *)
 
 type counter = span
