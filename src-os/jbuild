@@ -1,0 +1,6 @@
+(library
+ ((name        mtime.os)
+  (modules (mtime mtime_base))
+  (c_names (mtime_stubs))
+  (wrapped false)
+))
